@@ -31,11 +31,17 @@
                     <li>списки</li>
                     <li>и ссылки</li>
                 </ul>
-            </dive>
-            <dive class="child2">
                 <p>Внутри тега абзаца можно использовать тег переноса строки<br> например как здесь <b>текст можно сделать жирным</b><em> или курсивным</em></p></p>
                 <p></p>
                 <p><li><a href="https://yandex.ru/" target="blank"> Yandex </a>ссылка на сайт Яндекса</li></p>
+            </dive>
+            <dive class="child2">
+              <h3>Уважаемые студенты!</h3>
+            <h3>Вы довольны своим обучением?</h3>
+              <button onmouseDown="alert('Отлично, мы в этом не сомневались!!!')" value="ДА!!!">ДА!!!</button>
+              <span id="button1" style="position:relative;z-index:10" onmouseOver="moveIt()" onfocus="moveIt();this.blur()">
+              <button onmouseDown="moveIt()" onmouseover="moveIt()" onfocus="moveIt();this.blur()">Нет</button>
+              </span>
             </dive>
             <dive class="child3">
                 <table class="table"> <!--border - атрибут границ, правильно задавать в CSS-->
@@ -91,4 +97,5 @@
         </form>
        </body>
     <script src="script/alert.js"></script>
+              
 </html>
