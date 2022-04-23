@@ -78,3 +78,25 @@ h2, h3 {
     border: 1px solid white;    
     padding: 5px;
 }    
+
+a{
+	text-decoration:none;
+	border-bottom:1px dashed #C32017;
+	color:#333333;
+}
+
+a:link{				/*установка цвета непосещенной ссылки*/
+	color:#0800f3
+}
+
+a:visited{				/*установка цвета посещенной ссылки*/
+	color:#fa1aa0;
+}
+
+a:hover{				/*установка цвета при наведении мыши на ссылку*/
+color:#800000;
+}
+
+a:active{				/*установка цвета в момент щелчка по ссылке*/
+color:#008000;
+}
