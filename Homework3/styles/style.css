@@ -1,0 +1,11 @@
+body {
+    background:
+      whitesmoke
+}
+
+p, input, button{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
