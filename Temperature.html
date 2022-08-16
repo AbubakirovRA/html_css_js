@@ -1,0 +1,33 @@
+<!Doctype HTML>
+  <html>
+	<script>
+		function count(){
+			var Tc = 20;
+			var Tf =  (9 / 5) * Tc + 32;
+			alert("Температура по Фаренгейту: " + Tf + "℉");
+		}
+
+		function vasil(){
+			var name;
+			var admin;
+			name = "Василий";
+			admin = name;
+			alert(admin);
+		}
+		
+		function task4(){
+			alert('Чему будет равно JS-выражение 1000 + "108"\n Ответ: 1000108 - неявное приведение типов');
+		}
+
+		function task5(){
+			alert('Самостоятельно разобраться с атрибутами тега script (async и defer)\n\n Эти атрибуты используются для асинхронной(одновременной) загрузки скриптов и самой страницы. Async - первым выполнится тот скрипт, который загрузился первым. Defer - скрипты будут выполнятся в том порядке, в котором они добавлены на страницу. Используются для внешних скриптов.');
+		}
+
+	</script>
+	<body>
+		<input type="button" onclick="count()" value="Temperature on F"/>
+		<input type="button" onclick="vasil()" value="Эх, Вася..."/>
+		<input type="button" onclick="task4()" value="Task4* "/>
+		<input type="button" onclick="task5()" value="Task5*"/>
+	</body>
+  </html>
